@@ -6,6 +6,28 @@
     <title>Bootstrap 5</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/normalize.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        header{
+            margin-bottom: 25px;
+        }
+        .col-12{
+            background-color: #eee;
+            min-height: 350px;
+            margin-bottom: 25px;
+            padding: 3%;
+        }
+        .promo{
+            min-height: 250px;
+            margin-bottom: 25px;
+        }
+        
+    </style>
 </head> 
 <body class="card" >
     <header>
@@ -27,74 +49,70 @@
     </ul>
     </nav>
     </header>
-    <main class="d-flex justify-content-center">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-
-            
-            <div class="col-xs-12 col-sm-12">
-                <div class="card text-start w-75 p-3 bg-light" >
-                    <div class="card-body">
-                        <h1 class="card-title">A Warm Welcome!</h1>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid
-                        similique quaerat nam nobis illo aspernatur vita fugiat numquam repellat.</p>
-                        <a href="#" class="btn btn-primary">Call to action!</a>
-                    </div>
-                </div> 
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 rounded">
+                    <h1 class="card-title display-2">A Warm Welcome!</h1>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vita fugiat numquam repellat.</p>
+                    <a href="#" class="btn btn-primary">Call to action!</a>
+                </div>
             </div>
 
+            <div class="promo row">
+                <div class="col-3">
+                    <div class="card text-center">
+                        <img src="assets/img/img.avif" class="card-img-top" alt="500 x 325">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                    </div>
+                </div>
 
-            <div class="col">
-                <div class="card text-center mb-3" style="width: 16rem; height: 25rem;">
-                    <img src="#" class="card-img-top" alt="500 x 325">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                <div class="col-3">
+                    <div class="card text-center">
+                        <img src="assets/img/img.avif" class="card-img-top" alt="500 x 325">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
+            
+                <div class="col-3">
+                    <div class="card text-center">
+                        <img src="assets/img/img.avif" class="card-img-top" alt="500 x 325">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                    </div>
                 </div>
-                </div>
-            </div> 
 
-            <div class="col">
-                <div class="card text-center mb-3" style="width: 16rem; height: 25rem;">
-                    <img src="#" class="card-img-top" alt="500 x 325">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                <div class="col-3">
+                    <div class="card text-center">
+                        <img src="assets/img/img.avif" class="card-img-top" alt="500 x 325">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Find Out More!</a>
+                    </div>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
-                </div>
-                </div>
-            </div> 
-
-            <div class="col">
-                <div class="card text-center mb-3" style="width: 16rem; height: 25rem;">
-                    <img src="#" class="card-img-top" alt="500 x 325">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
-                </div>
-                </div>
-            </div> 
-
-            <div class="col">
-                <div class="card text-center mb-3" style="width: 16rem; height: 25rem;">
-                    <img src="#" class="card-img-top" alt="500 x 325">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
-                </div>
-                </div>
-            </div> 
-        </div>
+            </div>
+        </div> 
     </main>
     <footer>
         <div class="text-center p-4 bg-dark text-white" >Copyright © Your Website 2019</div>
